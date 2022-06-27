@@ -16,6 +16,7 @@ export default function Register() {
     draggable: true,
     theme: "dark",
   };
+ 
   const [values, setValues] = useState({
     username: "",
     email: "",
@@ -90,7 +91,7 @@ export default function Register() {
         <form action="" onSubmit={(event) => handleSubmit(event)}>
           <div className="brand">
             <img src={Logo} alt="logo" />
-            <h1>Aditya AVS</h1>
+            <h1>Neeraj chatbox</h1>
           </div>
           <input
             type="text"
